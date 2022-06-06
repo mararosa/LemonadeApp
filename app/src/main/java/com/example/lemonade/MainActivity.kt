@@ -122,8 +122,8 @@ class MainActivity : AppCompatActivity() {
                 lemonSize = -1
             }
             RESTART -> lemonadeState = SELECT
-
         }
+        setViewElements()
     }
 
     /**
